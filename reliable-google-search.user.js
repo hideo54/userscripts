@@ -20,6 +20,7 @@ const reliableDomains = [
     'note.nkmk.me',
     'docs.python.org',
     'developer.twitter.com',
+    'www.typescriptlang.org',
 ];
 
 // Manually Updated
