@@ -23,6 +23,8 @@ const reliableDomains = [
     'www.typescriptlang.org',
     'www.electronjs.org',
     'pugjs.org',
+    'developer.apple.com',
+    'webkit.org',
 ];
 
 // Manually Updated
