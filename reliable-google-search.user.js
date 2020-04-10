@@ -22,6 +22,7 @@ const reliableDomains = [
     'developer.twitter.com',
     'www.typescriptlang.org',
     'www.electronjs.org',
+    'pugjs.org',
 ];
 
 // Manually Updated
