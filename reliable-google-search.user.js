@@ -21,6 +21,7 @@ const reliableDomains = [
     'docs.python.org',
     'developer.twitter.com',
     'www.typescriptlang.org',
+    'www.electronjs.org',
 ];
 
 // Manually Updated
