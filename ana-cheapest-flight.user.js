@@ -11,12 +11,17 @@
 
 const a = document.querySelector('div.itinerarySeatClassAndFlight');
 const price = document.querySelector('img.icon + div em').textContent;
-const td = document.querySelector('img.icon + div').parentNode;
-td.style.backgroundColor = 'rgba(0, 255, 0, 0.5)';
-const headCell = td.parentNode.children[0];
-const time = headCell.children[1].textContent;
+const ds = document.querySelectorAll('img.icon + div');
+const times = new Set();
+for (const d of ds) {
+    const td = d.parentElement;
+    td.style.backgroundColor = 'rgba(0, 255, 0, 0.5)';
+    const headCell = td.parentElement.children[0];
+    const time = headCell.querySelector('p.availabilityResultFlightTime').textContent;
+    times.add(time);
+}
 
 const pLowest = document.createElement('div');
-pLowest.innerHTML = `この日の最安価格: ${price} (${time})`;
+pLowest.innerHTML = `この日の最安価格: ${price} (${[...times].join(', ')})`;
 pLowest.style = 'color: green; font-size: 1.5em; margin: 10px;';
 a.parentElement.insertBefore(pLowest, a.nextSibling);
