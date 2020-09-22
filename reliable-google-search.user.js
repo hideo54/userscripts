@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      0.1
+// @version      0.1.1
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -12,24 +12,33 @@
 
 // Manually Updated
 const reliableDomains = [
-    'api.slack.com',
+    'developer.apple.com',
     'github.com',
     'help.github.com',
-    'nodejs.org',
-    'developer.mozilla.org',
-    'note.nkmk.me',
-    'docs.python.org',
+    'api.slack.com',
     'developer.twitter.com',
-    'www.typescriptlang.org',
+    'note.nkmk.me',
     'www.electronjs.org',
+    'ffmpeg.org',
+    'developer.mozilla.org',
+    'nginx.org',
+    'nodejs.org',
     'pugjs.org',
-    'developer.apple.com',
+    'docs.python.org',
+    'www.typescriptlang.org',
     'webkit.org',
 ];
 
 // Manually Updated
 const deprecatedDomains = [
+    'www.366service.com',
+    'ja.compbs.com',
     'qiita.com',
+    'stackoverrun.com',
+    'xperimentalhamid.com',
+    'www.it-swarm.dev',
+    'www.it-swarm-ja.tech',
+    'qastack.jp',
     'www.sejuku.net',
 ];
 
@@ -44,8 +53,8 @@ for (const rc of rcs) {
     const domain = text.split(' › ')[0];
     for (const deprecatedDomain of deprecatedDomains) {
         if (domain === deprecatedDomain) {
-            s.style.color = '#A9A9A9';
-            a.style.color = '#A9A9A9';
+            s.style.color = '#F0F0F0';
+            a.style.color = '#F0F0F0';
         }
     }
     for (const reliableDomain of reliableDomains) {
