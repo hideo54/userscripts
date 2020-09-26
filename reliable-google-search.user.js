@@ -21,6 +21,7 @@ const reliableDomains = [
     'www.electronjs.org',
     'ffmpeg.org',
     'developer.mozilla.org',
+    'nextjs.org',
     'nginx.org',
     'nodejs.org',
     'pugjs.org',
