@@ -10,6 +10,9 @@
 // @downloadUrl  https://raw.githubusercontent.com/hideo54/userscripts/master/reliable-google-search.user.js
 // ==/UserScript==
 
+const a = document.querySelector('div.g.mnr-c.g-blk div.g a');
+a.href = a.href.replace(/#:~:text=\S*$/, '');
+
 // Manually Updated
 const reliableDomains = [
     'developer.apple.com',
