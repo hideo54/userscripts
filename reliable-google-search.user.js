@@ -14,6 +14,7 @@
 const reliableDomains = [
     'developer.apple.com',
     'github.com',
+    'docs.github.com',
     'help.github.com',
     'api.slack.com',
     'developer.twitter.com',
