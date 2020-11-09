@@ -75,7 +75,7 @@ const observer = new MutationObserver(mutations => {
     const parentSelector = paths.length === 2 ? parentSelectorForProfile : parentSelectorForTweet;
 
     const reservedScreenName = [
-        'home', 'search', 'settings',
+        'home', 'search', 'settings', 'explore', 'notifications', 'messages', 'i',
     ];
     if (reservedScreenName.includes(screen_name)) return;
     showLists(screen_name, parentSelector);
