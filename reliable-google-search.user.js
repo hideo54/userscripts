@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      0.2.6
+// @version      0.2.7
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -45,6 +45,7 @@ const deprecatedDomains = [
     'python5.com',
     'qiita.com',
     'stackoverrun.com',
+    'steakrecords.com',
     'xperimentalhamid.com',
     'www.it-swarm.dev',
     'www.it-swarm-ja.tech',
