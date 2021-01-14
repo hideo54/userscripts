@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      0.2.8
+// @version      0.3.0
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -56,7 +56,7 @@ const deprecatedDomains = [
     'apple.stackovernet.xyz',
 ];
 
-const rcs = Array.from(document.querySelectorAll('div.rc'));
+const rcs = Array.from(document.querySelectorAll('div.tF2Cxc'));
 for (const rc of rcs) {
     const r = rc.children[0];
     const s = rc.children[1];
