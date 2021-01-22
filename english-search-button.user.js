@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         English Search Button
 // @namespace    https://github.com/hideo54
-// @version      0.1.0
+// @version      0.1.1
 // @description  日本語版 Google の検索結果画面に英語で検索ボタンを追加します
 // @author       hideo54
 // @match        https://www.google.com/search?*
 // @grant        none
-// @updateUrl    https://raw.githubusercontent.com/hideo54/userscripts/master/reliable-google-search.user.js
-// @downloadUrl  https://raw.githubusercontent.com/hideo54/userscripts/master/reliable-google-search.user.js
+// @updateUrl    https://raw.githubusercontent.com/hideo54/userscripts/master/english-search-button.user.js
+// @downloadUrl  https://raw.githubusercontent.com/hideo54/userscripts/master/english-search-button.user.js
 // ==/UserScript==
 
 const div = document.querySelector('#hdtb-msb > div:nth-child(2)');
