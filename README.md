@@ -18,6 +18,14 @@ Google 検索結果から、hideo54が名指しした好きなサイトの影を
 
 サイト (ドメインベース) は手動でちまちまアップデートしているよ。
 
+### English Search Button
+
+日本語 Google の検索言語ボタンはデフォルトでは「すべての言語」「日本語のページを検索」しかないから、「英語のページを検索」ボタンを追加するよ。
+
+| Before | After |
+| --- | --- |
+| ![english-search-button-before](screenshots/english-search-button-before.png) | ![english-search-button-after-1](screenshots/english-search-button-after-1.png) ![english-search-button-after-2](screenshots/english-search-button-after-2.png) |
+
 ### ANA Cheapest Flight
 
 ANA の区間検索画面で最安フライトを強調表示するよ。
