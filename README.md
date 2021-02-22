@@ -1,12 +1,22 @@
 # userscripts
 
-hideo54 が日常生活を便利にするために都度書いた userscripts 置き場だよ。**何の責任も取らないよ。**
+hideo54 が日常生活を便利にするために都度書いているカスタム JS, CSS の置き場です。自分用なので**何の責任も取りません。**
+
+## 想定環境
+
+* Google Chrome
+* [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (for `.user.js`)
+* [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) (for `.user.css`)
+
+まあ他でもよさそう (しらんけど)
 
 ## 使い方
 
-使いたい `.user.js` を選択して "Raw" を押せば、Tampermonkey が開くはずだよ。
+使いたい `.user.js` や `.user.css` を選択して "Raw" を押せば、Tampermonkey や Stylus が開くはずだよ。
 
 ## Gallery
+
+お気に入り順。
 
 ### Reliable Google Search
 
@@ -25,6 +35,14 @@ Google 検索結果から、hideo54が名指しした好きなサイトの影を
 | Before | After |
 | --- | --- |
 | ![english-search-button-before](screenshots/english-search-button-before.png) | ![english-search-button-after-1](screenshots/english-search-button-after-1.png) ![english-search-button-after-2](screenshots/english-search-button-after-2.png) |
+
+### Our Beautiful Hongo
+
+東大の諸々のログイン画面の安田講堂を縦ディスプレイでも綺麗に映すよ。
+
+| Before | After |
+| --- | --- |
+| ![our-beautiful-hongo-before](screenshots/our-beautiful-hongo-before.png) | ![our-beautiful-hongo-after](screenshots/our-beautiful-hongo-after.png) |
 
 ### ANA Cheapest Flight
 
