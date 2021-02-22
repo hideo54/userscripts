@@ -36,6 +36,14 @@ Google 検索結果から、hideo54が名指しした好きなサイトの影を
 | --- | --- |
 | ![english-search-button-before](screenshots/english-search-button-before.png) | ![english-search-button-after-1](screenshots/english-search-button-after-1.png) ![english-search-button-after-2](screenshots/english-search-button-after-2.png) |
 
+### [Big Emoji on Slack Web](https://raw.githubusercontent.com/hideo54/userscripts/master/big-emoji-on-slack-web.user.css)
+
+Slack Web の reaction の絵文字を大きく表示するよ。
+
+| Before | After |
+| --- | --- |
+| ![big-emoji-on-slack-web-before](screenshots/big-emoji-on-slack-web-before.png) | ![big-emoji-on-slack-web-after](screenshots/big-emoji-on-slack-web-after.png) |
+
 ### [Our Beautiful Hongo](https://raw.githubusercontent.com/hideo54/userscripts/master/our-beautiful-hongo.user.css)
 
 東大の諸々のログイン画面の安田講堂を縦ディスプレイでも綺麗に映すよ。
