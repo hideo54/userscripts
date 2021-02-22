@@ -52,6 +52,12 @@ Slack Web の reaction の絵文字を大きく表示するよ。
 | --- | --- |
 | ![our-beautiful-hongo-before](screenshots/our-beautiful-hongo-before.png) | ![our-beautiful-hongo-after](screenshots/our-beautiful-hongo-after.png) |
 
+### [Copy Block Blocker](https://raw.githubusercontent.com/hideo54/userscripts/master/copy-block-blocker.user.css)
+
+コピー禁止を無効化するよ。コピー禁止コンテンツを見つけ次第どんどん足していくよ。
+
+![copy-block-blocker](screenshots/copy-block-blocker.png)
+
 ### [ANA Cheapest Flight](https://raw.githubusercontent.com/hideo54/userscripts/master/ana-cheapest-flight.user.js)
 
 ANA の区間検索画面で最安フライトを強調表示するよ。

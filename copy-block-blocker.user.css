@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Copy Block Blocker
+@namespace      hideo54
+@version        1.0.0
+@homepageURL    https://github.com/hideo54/userscripts
+@updateURL      https://raw.githubusercontent.com/hideo54/userscripts/master/copy-block-blocker.user.css
+@description    Block copy block.
+@author         hideo54
+@license        Apache-2.0
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.google.com/search") {
+    .ruFbjf {
+        user-select: auto;
+        -webkit-user-select: auto;
+    }
+}
