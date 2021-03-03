@@ -54,6 +54,7 @@ const deprecatedDomains = [
     'www.it-swarm.jp.net',
     'qastack.jp',
     'ja.it-reply.net',
+    'ja.javascript.info',
     'www.sejuku.net',
     'apple.stackovernet.xyz',
 ];
