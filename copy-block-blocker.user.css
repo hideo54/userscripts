@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Copy Block Blocker
 @namespace      hideo54
-@version        1.0.0
+@version        1.0.1
 @homepageURL    https://github.com/hideo54/userscripts
 @updateURL      https://raw.githubusercontent.com/hideo54/userscripts/master/copy-block-blocker.user.css
 @description    Block copy block.
@@ -11,6 +11,13 @@
 
 @-moz-document url-prefix("https://www.google.com/search") {
     .ruFbjf {
+        user-select: auto;
+        -webkit-user-select: auto;
+    }
+}
+
+@-moz-document url-prefix("https://www.news24.jp") {
+    body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, button, p, blockquote, th, td {
         user-select: auto;
         -webkit-user-select: auto;
     }
