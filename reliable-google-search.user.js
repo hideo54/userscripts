@@ -57,6 +57,7 @@ const deprecatedDomains = [
     'ja.javascript.info',
     'www.sejuku.net',
     'apple.stackovernet.xyz',
+    'cloud6.net',
 ];
 
 const rcs = Array.from(document.querySelectorAll('div.tF2Cxc'));
