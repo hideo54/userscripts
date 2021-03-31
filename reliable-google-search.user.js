@@ -60,6 +60,11 @@ const deprecatedDomains = [
     'xperimentalhamid.com',
 ];
 
+const deprecatedTLDs = [
+    '.cn',
+    '.ru',
+];
+
 const rcs = Array.from(document.querySelectorAll('div.tF2Cxc'));
 for (const rc of rcs) {
     const r = rc.children[0];
@@ -69,15 +74,21 @@ for (const rc of rcs) {
     const cite = a.children[2].children[0];
     const text = cite.textContent;
     const domain = text.split(' › ')[0];
+    for (const reliableDomain of reliableDomains) {
+        if (domain === 'https://' + reliableDomain) {
+            h3.style.fontWeight = 600;
+        }
+    }
     for (const deprecatedDomain of deprecatedDomains) {
         if (domain === 'https://' + deprecatedDomain) {
             s.style.color = '#F0F0F0';
             a.style.color = '#F0F0F0';
         }
     }
-    for (const reliableDomain of reliableDomains) {
-        if (domain === 'https://' + reliableDomain) {
-            h3.style.fontWeight = 600;
+    for (const deprecatedTLD of deprecatedTLDs) {
+        if (domain.endsWith(deprecatedTLD)) {
+            s.style.color = '#F0F0F0';
+            a.style.color = '#F0F0F0';
         }
     }
 }
