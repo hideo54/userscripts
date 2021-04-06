@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      0.5.0
+// @version      0.5.1
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -18,6 +18,7 @@ if (a) {
 // Manually Updated
 const reliableDomains = [
     'api.slack.com',
+    'day.js.org',
     'developer.apple.com',
     'developer.mozilla.org',
     'developer.twitter.com',
@@ -26,12 +27,14 @@ const reliableDomains = [
     'ffmpeg.org',
     'github.com',
     'help.github.com',
+    'ja.reactjs.org',
     'mathtrain.jp',
     'nextjs.org',
     'nginx.org',
     'nodejs.org',
     'note.nkmk.me',
     'pugjs.org',
+    'reactjs.org',
     'webkit.org',
     'www.electronjs.org',
     'www.typescriptlang.org',
@@ -52,6 +55,7 @@ const deprecatedDomains = [
     'stackoverrun.com',
     'steakrecords.com',
     'www.366service.com',
+    'www.it-mure.jp.net',
     'www.it-swarm-ja.tech',
     'www.it-swarm.dev',
     'www.it-swarm.jp.net',
