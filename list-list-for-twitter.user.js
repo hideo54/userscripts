@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         List list for Twitter
-// @version      0.9
+// @version      0.9.1
 // @description  Show the lists where a given Twitter user belongs.
 // @author       hideo54
-// @include      /^https:\/\/twitter\.com\/[a-zA-Z1-9_]+(/status/[0-9]*)?
+// @include      /^https:\/\/twitter\.com\/[a-zA-Z0-9_]+(/status/[0-9]*)?
 // @grant        none
 // @updateUrl    https://raw.githubusercontent.com/hideo54/userscripts/master/list-list-for-twitter.user.js
 // @downloadUrl  https://raw.githubusercontent.com/hideo54/userscripts/master/list-list-for-twitter.user.js
