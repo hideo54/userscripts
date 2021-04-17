@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      0.5.2
+// @version      0.5.3
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -37,6 +37,7 @@ const reliableDomains = [
     'reactjs.org',
     'webkit.org',
     'www.electronjs.org',
+    'www.javaer101.com',
     'www.typescriptlang.org',
 ];
 
