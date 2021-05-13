@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      1.6
+// @version      1.6.1
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -54,10 +54,12 @@ const deprecatedDomains = [
     'ja.it-reply.net',
     'ja.javascript.info',
     'ja.ojit.com',
+    'ja.uwenku.com',
     'living-sun.com',
     'python5.com',
     'qastack.jp',
     'qiita.com',
+    'stackovernet.xyz',
     'stackoverrun.com',
     'steakrecords.com',
     'www.366service.com',
@@ -97,7 +99,7 @@ for (const rc of rcs) {
         }
     }
     for (const deprecatedDomain of deprecatedDomains) {
-        if (domain === 'https://' + deprecatedDomain) {
+        if (domain.endsWith('://' + deprecatedDomain)) {
             s.style.color = '#F0F0F0';
             a.style.color = '#F0F0F0';
         }
