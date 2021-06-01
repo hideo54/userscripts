@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      1.6.2
+// @version      1.6.3
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -64,6 +64,7 @@ const deprecatedDomains = [
     'stackoverrun.com',
     'steakrecords.com',
     'www.366service.com',
+    'www.fixes.pub',
     'www.it-mure.jp.net',
     'www.it-swarm-ja.com',
     'www.it-swarm-ja.tech',
