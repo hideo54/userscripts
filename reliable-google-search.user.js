@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      1.6.4
+// @version      1.7.0
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -92,23 +92,23 @@ for (const rc of rcs) {
     const text = cite.textContent;
     const domain = text.split(' › ')[0];
     for (const reliableDomain of reliableDomains) {
-        if (domain === 'https://' + reliableDomain) {
+        if (domain === reliableDomain) {
             h3.style.fontWeight = 600;
         }
     }
     for (const reliableETLD of reliableETLDs) {
-        if (domain.endsWith(reliableETLD)) {
+        if (domain === reliableETLD) {
             h3.style.fontWeight = 600;
         }
     }
     for (const deprecatedDomain of deprecatedDomains) {
-        if (domain.endsWith('://' + deprecatedDomain)) {
+        if (domain === deprecatedDomain) {
             s.style.color = '#F0F0F0';
             a.style.color = '#F0F0F0';
         }
     }
     for (const deprecatedETLD of deprecatedETLDs) {
-        if (domain.endsWith(deprecatedETLD)) {
+        if (domain === deprecatedETLD) {
             s.style.color = '#F0F0F0';
             a.style.color = '#F0F0F0';
         }
