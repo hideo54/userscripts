@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      1.8.3
+// @version      1.8.4
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -51,6 +51,7 @@ const reliableETLDs = [
 
 // Manually Updated
 const deprecatedDomains = [
+    'apiref.com',
     'apple.stackovernet.xyz',
     'base64.work',
     'bleepcoder.com',
@@ -62,6 +63,7 @@ const deprecatedDomains = [
     'ja.uwenku.com',
     'kyoto.travel',
     'living-sun.com',
+    'mongoing.com',
     'python5.com',
     'qastack.jp',
     'qiita.com',
