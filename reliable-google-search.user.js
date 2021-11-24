@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      1.9.1
+// @version      1.9.2
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -57,6 +57,7 @@ const deprecatedDomains = [
     'base64.work',
     'bleepcoder.com',
     'cloud6.net',
+    'hubwiz.com',
     'ja.compbs.com',
     'ja.it-reply.net',
     'ja.javascript.info',
