@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      1.9.4
+// @version      1.10.0
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -91,34 +91,34 @@ const deprecatedETLDs = [
     '.ru',
 ];
 
-const rcs = Array.from(document.querySelectorAll('div.tF2Cxc'));
-for (const rc of rcs) {
-    const r = rc.children[0];
-    const s = rc.children[1];
-    const a = r.children[0];
+const results = Array.from(document.querySelectorAll('div.jtfYYd'));
+for (const result of results) {
+    const titleDiv = result.children[0];
+    const descriptionDiv = result.children[1];
+    const a = titleDiv.children[0].children[0];
     const h3 = a.children[1];
     const cite = a.children[2].children[0];
     const text = cite.textContent;
-    const domain = text.split(' › ')[0];
+    const origin = text.split(' ')[0];
     for (const reliableDomain of reliableDomains) {
-        if (domain.endsWith(reliableDomain)) {
+        if (origin.endsWith(reliableDomain)) {
             h3.style.fontWeight = 600;
         }
     }
     for (const reliableETLD of reliableETLDs) {
-        if (domain.endsWith(reliableETLD)) {
+        if (origin.endsWith(reliableETLD)) {
             h3.style.fontWeight = 600;
         }
     }
     for (const deprecatedDomain of deprecatedDomains) {
-        if (domain.endsWith(deprecatedDomain)) {
-            s.style.opacity = 0.1;
+        if (origin.endsWith(deprecatedDomain)) {
+            descriptionDiv.style.opacity = 0.1;
             a.style.opacity = 0.1;
         }
     }
     for (const deprecatedETLD of deprecatedETLDs) {
-        if (domain.endsWith(deprecatedETLD)) {
-            s.style.opacity = 0.1;
+        if (origin.endsWith(deprecatedETLD)) {
+            descriptionDiv.style.opacity = 0.1;
             a.style.opacity = 0.1;
         }
     }
