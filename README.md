@@ -65,7 +65,7 @@ YouTube に無限ループボタンを追加するよ。
 
 ### [ZOZO PR Remover](https://raw.githubusercontent.com/hideo54/userscripts/master/zozo-pr-remover.user.js)
 
-ANA の区間検索画面で最安フライトを強調表示するよ。
+ZOZOの検索画面の広告グリッドの存在感を薄めるよ。
 
 | Before | After |
 | --- | --- |
