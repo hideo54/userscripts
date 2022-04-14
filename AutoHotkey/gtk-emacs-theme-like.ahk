@@ -64,12 +64,12 @@ is_target()
 ; <ctrl>f
 ; move cursor forward
 ;
-^f::
-  If is_target()
-    Send %A_ThisHotkey%
-  Else
-    Send {Right}
-  Return  
+;^f::
+;  If is_target()
+;    Send %A_ThisHotkey%
+;  Else
+;    Send {Right}
+;  Return  
 
 ;
 ; <shift><ctrl>f  
@@ -152,12 +152,12 @@ is_target()
 ; <ctrl>a
 ; move cursor beginning of current line
 ;
-^a::
-  If is_target()
-    Send %A_ThisHotkey%
-  Else
-    Send {Home}
-  Return
+;^a::
+;  If is_target()
+;    Send %A_ThisHotkey%
+;  Else
+;    Send {Home}
+;  Return
 
 ;
 ; <shift><ctrl>a
@@ -240,12 +240,12 @@ is_target()
 ; <ctrl>w
 ; cut
 ;
-^w::
-  If is_target()
-    Send %A_ThisHotkey%
-  Else
-    Send ^x
-  Return
+;^w::
+;  If is_target()
+;    Send %A_ThisHotkey%
+;  Else
+;    Send ^x
+;  Return
 
 ;
 ; <ctrl>y
