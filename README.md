@@ -51,11 +51,25 @@ Slack Web の reaction の絵文字を大きく表示するよ。
 | --- | --- |
 | ![our-beautiful-hongo-before](screenshots/our-beautiful-hongo-before.png) | ![our-beautiful-hongo-after](screenshots/our-beautiful-hongo-after.png) |
 
+### [YouTube Loop Button](https://raw.githubusercontent.com/hideo54/userscripts/master/youtube-loop-button.user.js)
+
+YouTube に無限ループボタンを追加するよ。
+
+![youtube-loop-button](screenshots/youtube-loop-button.png)
+
 ### [Copy Block Blocker](https://raw.githubusercontent.com/hideo54/userscripts/master/copy-block-blocker.user.css)
 
 コピー禁止を無効化するよ。コピー禁止コンテンツを見つけ次第どんどん足していくよ。
 
 ![copy-block-blocker](screenshots/copy-block-blocker.png)
+
+### [ZOZO PR Remover](https://raw.githubusercontent.com/hideo54/userscripts/master/zozo-pr-remover.user.js)
+
+ZOZOの検索画面の広告グリッドの存在感を薄めるよ。
+
+| Before | After |
+| --- | --- |
+| ![zozo-pr-remover-before](screenshots/zozo-pr-remover-before.png) | ![zozo-pr-remover-after](screenshots/zozo-pr-remover-after.png) |=
 
 ### [ANA Cheapest Flight](https://raw.githubusercontent.com/hideo54/userscripts/master/ana-cheapest-flight.user.js)
 
@@ -63,7 +77,7 @@ ANA の区間検索画面で最安フライトを強調表示するよ。
 
 | Before | After |
 | --- | --- |
-| ![ana-cheapest-flight-before](screenshots/ana-cheapest-flight-before.png) | ![ana-cheapest-flight-after](screenshots/ana-cheapest-flight-after.png) |
+| ![ana-cheapest-flight-before](screenshots/ana-cheapest-flight-before.png) | ![ana-cheapest-flight-after](screenshots/ana-cheapest-flight-after.png) |=
 
 ### [AtCoder performance colorizer](https://raw.githubusercontent.com/hideo54/userscripts/master/atcoder-performance-colorizer.user.js)
 
