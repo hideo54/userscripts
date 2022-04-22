@@ -55,6 +55,7 @@ const deprecatedDomains = [
     'base64.work',
     'bleepcoder.com',
     'cloud6.net',
+    'ja.androideity.com',
     'ja.compbs.com',
     'ja.it-reply.net',
     'ja.javascript.info',
