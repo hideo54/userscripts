@@ -41,6 +41,7 @@ const reliableDomains = [
     'pugjs.org',
     'pytorch.org',
     'reactjs.org',
+    'senkyo.watch',
     'webkit.org',
     'www.electronjs.org',
     'www.typescriptlang.org',
