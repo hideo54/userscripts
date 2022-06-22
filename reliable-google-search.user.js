@@ -55,6 +55,7 @@ const reliableETLDs = [
 const deprecatedDomains = [
     'apiref.com',
     'apple.stackovernet.xyz',
+    'appleloveone.blog.fc2.com',
     'base64.work',
     'bleepcoder.com',
     'cloud6.net',
@@ -68,6 +69,7 @@ const deprecatedDomains = [
     'living-sun.com',
     'mongodb-documentation.readthedocs.io',
     'mongoing.com',
+    'news.minory.org',
     'python5.com',
     'qastack.jp',
     'runebook.dev',
