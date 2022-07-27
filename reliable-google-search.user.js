@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reliable Google Search
 // @namespace    https://github.com/hideo54
-// @version      1.10.5
+// @version      1.10.6
 // @description  Google 検索結果から、指定されたドメインのページの表示を強調したり目立たなくしたりします。
 // @author       hideo54
 // @match        https://www.google.com/search?*
@@ -91,6 +91,7 @@ const deprecatedDomains = [
     'www.sejuku.net',
     'www.w3big.com',
     'www.webdevqa.jp.net',
+    'www.web-dev-qa-db-ja.com',
     'www.xspdf.com',
     'xperimentalhamid.com',
 ];
