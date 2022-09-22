@@ -63,6 +63,14 @@ YouTube に無限ループボタンを追加するよ。
 
 ![copy-block-blocker](screenshots/copy-block-blocker.png)
 
+### [Jimin Modernizer](https://raw.githubusercontent.com/hideo54/userscripts/master/jimin-modernizer.user.js)
+
+自由民主党の議員ページの「生年月日」の生まれ年の表記を元号から西暦に書き換えるよ。
+
+| Before | After |
+| --- | --- |
+| ![jimin-modernizer-before](screenshots/jimin-modernizer-before.png) | ![jimin-modernizer-after](screenshots/jimin-modernizer-after.png) |
+
 ### [ZOZO PR Remover](https://raw.githubusercontent.com/hideo54/userscripts/master/zozo-pr-remover.user.js)
 
 ZOZOの検索画面の広告グリッドの存在感を薄めるよ。
